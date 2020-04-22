@@ -2,6 +2,6 @@
 Introduction-To-Java  <br/>
 All Codes are perfectly fine and working on codezen/Eclipse/Any IDE Platform.<br/>
 If you find any doubts, feel free to contact me! <br/>
-If like this,Please star this repository
+Star the repo if you like it.
 
  
