@@ -1,28 +1,20 @@
-import Vehicle.Vehicle;
-public class Car extends Vehicle {
-
-	int maxSpeed;
-	boolean convertable;
-	String company;
+package Vehicle;
+public class Vehicle {
+	
+	protected String color;
+	private int numOfGears;
 	
 	
-	public Car() {
-		// TODO Auto-generated constructor stub
-		//	super();// automatic  // not able to work because not default constructor//
-		super("Red");
-		this.maxSpeed=5;
-		convertable=false;
-		company="XYZ";
+	public Vehicle(String color) {
+		
+		this.color=color;
+		this.numOfGears=0;
+		
 	}
+	
 	
 	public void print() {
-		
-	//	super.numOfGears=5;   private data 
-//		super.color="red";
-	
-		super.print();
-		System.out.println(color);
-		System.out.println(company +" " + convertable);
+		System.out.println(color +" " + numOfGears);
 	}
-	
+
 }
