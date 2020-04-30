@@ -31,11 +31,11 @@ public class Use {
 		
 		
 		Integer i =new Integer(6);
-		System.out.println(i);
+		System.out.println(i);  // i is a variable ( wrapper class object is a object that contains value not address) 
 		
 		String s="abc";
 		s="def";
-		System.out.println(s);
+		System.out.println(s);   // printing s gives value ....beacuse String is a speacial class that prints values not adrress.
 	
 		
 	}
